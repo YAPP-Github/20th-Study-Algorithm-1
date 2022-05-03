@@ -65,11 +65,6 @@ class Solution {
 
             String key = String.join(" ", datas);
 
-            System.out.println(key + " :: " + information.get(key));
-            System.out.println("이 점수는 넘어야됨 :: " + score);
-
-            System.out.println("--------------------------------------------------------");
-
             if(information.containsKey(key)) { // 조건에 부합한 지원자가 없을 경우가 있음을 대비
                 ArrayList<Integer> infoValues = information.get(key);
                 // 이분 탐색 진입
@@ -79,10 +74,6 @@ class Solution {
 
                     int mid = (low + high) / 2;
 
-                    System.out.println("mid :: " + mid);
-                    System.out.println("score :: " + score);
-                    System.out.println("info mid value :: " + infoValues.get(mid));
-
                     if(score > infoValues.get(mid)) {
                         low = mid + 1;
                     } else {
@@ -90,10 +81,6 @@ class Solution {
                     }
 
                     // 과정을 거쳐 low의 값과 high의 값은 동일해짐
-                    System.out.println("low :: " + low);
-                    System.out.println("high :: " + high);
-
-                    System.out.println("--------------------------------------------------------");
                 }
                 answer[i] = infoValues.size() - low; // 전체 사이즈 - 조건을 만족하는 값의 시작점
             }
