@@ -14,11 +14,6 @@
               </a>
           </td>
           <td align="center">
-              <a href="https://github.com/AnneMayor">                 
-                  <img alt="이다혜" src="https://avatars.githubusercontent.com/AnneMayor" width="80" />            
-              </a>
-          </td>
-          <td align="center">
               <a href="https://github.com/yjyoon-dev">                 
                   <img alt="윤여준" src="https://avatars.githubusercontent.com/yjyoon-dev" width="80" />            
               </a>
@@ -37,7 +32,6 @@
       <tr>
           <td align="center">이지훈(Java)</td>
           <td align="center">한지희(Kotlin)</td>
-          <td align="center">이다혜(Java)</td>
           <td align="center">윤여준(C++)</td>
           <td align="center">박현국(Java)</td>
           <td align="center">김정호(Java)</td>
@@ -51,7 +45,7 @@
 - **매주 수요일 오후 11시**, [Zep](https://zep.us/play/DElvly)에 모여 짧게 이야기를 나눕니다.
 
 ## 🤔 문제 선정
-> **이지훈 -> 한지희 -> 이다혜 -> 윤여준 -> 박현국 -> 김정호**
+> **이지훈 -> 한지희 -> 윤여준 -> 박현국 -> 김정호**
 - 위 순서로 매주 돌아가며 **[프로그래머스](https://programmers.co.kr/learn/challenges)** 에서 문제를 선정합니다.
 - 선정자는 선정이 완료되면 `Issue` 를 등록합니다.
 
